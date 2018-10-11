@@ -1,0 +1,127 @@
+/*****BODY*****/
+body {
+  font-family:'montserrat', sans-serif;
+  color: #000000;
+}
+
+/*****GRID*****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+.third-width:nth-child(2) {
+  width: 400px;
+}
+
+/*****LOGO*****/
+
+h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 23px;
+}
+
+#rogue {
+  color: #77a466;
+}
+
+/*****NAV*****/
+
+
+li {
+  padding: 0 12.5px;
+  margin: 0;
+  display: inline;
+  height: 23px;
+}
+
+
+li:nth-child(6), li:nth-child(1) {
+  padding: 0px 0px 0px 0px
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #77a466;
+  font-weight: bold;
+}
+
+/*****MAIN SECTION ONE*****/
+
+h2 {
+  color: #77a466;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+#intro {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/*****MAIN SECTION TWO*****/
+
+h4 {
+  font-size: 12px;
+  line-height: 25px;
+  width: 400px;
+}
+
+.special-item {
+  font-size: 16px;
+  line-height: 18px;
+  color: #77a466;
+  width: 400px;
+}
+
+.reviews {
+  font-size: 16px;
+  line-height: 21px;
+  width: 400px;
+  padding: 0px 20px 0px 0px;
+}
+
+#contact-info {
+  font-size: 16px;
+  line-height: 24px;
+  width: 400px;
+}
+
+/*****FOOTER*****/
+
+footer {
+  clear: both;
+}
+
+#footer {
+  padding: 10px;
+  margin: 40px auto;
+  text-align: center;
+  font-size: 16px;
+  line-height: 23px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#fresh {
+  color: #77a466;
+  font-family: 'satisfy', cursive;
+  text-transform: lowercase;
+}
